@@ -1,0 +1,35 @@
+mongodb is installed using brew
+
+to start mongodb
+ > brew services start mongodb-community
+
+to stop mongodb
+ > brew services stop mongodb-community
+
+to start the mongo console
+ > mongo
+
+to stop the mongo console
+ > quit
+
+to stop the mongod
+ > pkill -f mongod
+
+to see the job
+ > ps aux | grep -v grep | grep mongod
+
+mongodb runs on port 27017
+
+to start mongodb on a different port:
+ > mongo --port 28015
+
+configuration file is at 
+/usr/local/etc/mongod.conf
+
+logs are written to 
+/usr/local/var/log/mongodb/mongo.log
+
+data files are at
+/usr/local/var/mongodb
+
+
