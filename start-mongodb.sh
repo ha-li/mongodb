@@ -1,1 +1,1 @@
-brew services start mongodb-community
+brew services start mongodb-community@6.0

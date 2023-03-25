@@ -1,1 +1,1 @@
-brew services stop mongodb-community
+brew services stop mongodb-community@6.0

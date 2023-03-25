@@ -1,1 +1,1 @@
-brew services restart mongodb-community
+brew services restart mongodb-community@6.0
